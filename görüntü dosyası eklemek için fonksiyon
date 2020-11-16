@@ -10,4 +10,6 @@ def load_images_from_folder(folder):
     return images
 folder="directory/folder path"
 
-load_images_from_folder(r"C:\Users\HP PAVILION\Desktop\hilal\images")
+resimler=load_images_from_folder(r"C:\Users\HP PAVILION\Desktop\hilal\images")
+resimler=numpy.array(resimler)
+
